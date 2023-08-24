@@ -1,0 +1,54 @@
+.dark{
+    background-color: #313131;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: #313131;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    margin: 0px;
+    
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-areas: 'left center right';
+    box-sizing: border-box;
+}
+
+#textarea{
+    grid-area: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 60px;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    text-align: center;
+    font-size:xx-large
+}
+
+.right-div{
+    grid-area: right;
+    justify-self: right;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.left-div{
+    grid-area: left;
+    justify-self: left;
+    padding: 8px;
+}
