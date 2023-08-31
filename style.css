@@ -1,13 +1,3 @@
-.dark{
-    background-color: #313131;
-    color: white;
-}
-
-.light{
-    background-color: white;
-    color: #313131;
-}
-
 html{
     box-sizing: border-box;
 }
@@ -38,7 +28,7 @@ body{
     font-size:xx-large
 }
 
-.right-div{
+.right{
     grid-area: right;
     justify-self: right;
     padding: 12px;
@@ -47,8 +37,18 @@ body{
     gap: 4px;
 }
 
-.left-div{
+.left{
     grid-area: left;
     justify-self: left;
     padding: 8px;
+}
+
+.dark{
+    background-color: #313131;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: #313131;
 }

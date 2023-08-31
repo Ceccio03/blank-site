@@ -8,16 +8,17 @@
     <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
 </head>
 <body class="light">
-    <div class="left-div">
+    <div class="left" id="counter">
 
     </div>
     <div>
         <textarea name="" id="textarea" cols="100" rows="300" class="light" placeholder="Scrivi quello che vuoi"></textarea>
         <div id="preview"></div>
     </div>
-    <div class="right-div">
+    <div class="right">
         <button onclick="switchThemes()">Cambia tema (scuro/chiaro)</button>
         <button id="download-btn">Scarica in formato txt (documento di testo)</button>
+        <button id="fullscreen-btn">Schermo intero</button>
         <button id="markdown-btn">Markdown ON/OFF</button>
     </div>
 </body>
